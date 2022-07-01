@@ -6,6 +6,14 @@ plugins {
 android {
     compileSdk 32
 
+
+
+    buildFeatures {
+        viewBinding = true
+    }
+
+
+
     defaultConfig {
         applicationId "com.rafael.photosbootcamp"
         minSdk 23
